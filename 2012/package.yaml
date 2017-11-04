@@ -1,0 +1,19 @@
+name: doh2012
+
+dependencies:
+    - base
+    - text
+
+executables:
+    exe-2012-02:
+        source-dirs: src/02-digestive-functors
+        main: Main.hs
+        dependencies:
+            - digestive-functors
+            - digestive-functors-blaze
+            - blaze-html
+            - snap-core
+            - snap-server
+            - snap
+            - snap-blaze
+            - digestive-functors-snap
