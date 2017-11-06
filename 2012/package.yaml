@@ -5,7 +5,7 @@ dependencies:
     - text
 
 executables:
-    exe-2012-02:
+    exe-02:
         source-dirs: src/02-digestive-functors
         main: Main.hs
         dependencies:
@@ -17,3 +17,8 @@ executables:
             - snap
             - snap-blaze
             - digestive-functors-snap
+    exe-03:
+        source-dirs: src/03-sqlite-simple
+        main: Main.hs
+        dependencies:
+            - sqlite-simple
