@@ -28,3 +28,8 @@ executables:
         dependencies:
             - errors
             - transformers
+    exe-06:
+        source-dirs: src/06-containers
+        main: Main.hs
+        dependencies:
+            - containers
