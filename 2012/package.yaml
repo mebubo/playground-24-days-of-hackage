@@ -22,3 +22,9 @@ executables:
         main: Main.hs
         dependencies:
             - sqlite-simple
+    exe-04:
+        source-dirs: src/04-errors
+        main: Main.hs
+        dependencies:
+            - errors
+            - transformers
