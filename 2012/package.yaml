@@ -33,3 +33,9 @@ executables:
         main: Main.hs
         dependencies:
             - containers
+    exe-07:
+        source-dirs: src/07-aeson
+        main: Main.hs
+        dependencies:
+            - aeson
+            - containers
