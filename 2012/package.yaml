@@ -39,3 +39,8 @@ executables:
         dependencies:
             - aeson
             - containers
+    exe-08:
+        source-dirs: src/08-QuickCheck
+        main: Main.hs
+        dependencies:
+            - QuickCheck
