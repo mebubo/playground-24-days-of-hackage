@@ -44,3 +44,8 @@ executables:
         main: Main.hs
         dependencies:
             - QuickCheck
+    exe-09:
+        source-dirs: src/09-lens
+        main: Main.hs
+        dependencies:
+            - lens
