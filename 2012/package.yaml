@@ -49,3 +49,8 @@ executables:
         main: Main.hs
         dependencies:
             - lens
+    exe-10:
+        source-dirs: src/10-parsec
+        main: Main.hs
+        dependencies:
+            - parsec
