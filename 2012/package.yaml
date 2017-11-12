@@ -60,3 +60,8 @@ executables:
         dependencies:
             - ekg
             - ekg-core
+    exe-14:
+        source-dirs: src/14-dlist
+        main: Main.hs
+        dependencies:
+            - dlist
