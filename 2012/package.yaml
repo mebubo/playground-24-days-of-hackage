@@ -54,3 +54,9 @@ executables:
         main: Main.hs
         dependencies:
             - parsec
+    exe-11:
+        source-dirs: src/11-ekg
+        main: Main.hs
+        dependencies:
+            - ekg
+            - ekg-core
