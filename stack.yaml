@@ -2,6 +2,10 @@ resolver: lts-9.11
 
 packages:
 - ./2012
+- location:
+    git: https://github.com/mebubo/haskelldb.git
+    commit: 22c59df0dafcf7ace9d9f8cd1d66c994b942f7e3
+  extra-dep: true
 
 extra-deps:
 - digestive-functors-0.8.2.0
