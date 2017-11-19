@@ -70,3 +70,8 @@ executables:
         main: Main.hs
         dependencies:
             - haskelldb
+    exe-16:
+        source-dirs: src/16-pipes
+        main: Main.hs
+        dependencies:
+            - pipes
