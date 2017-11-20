@@ -75,3 +75,8 @@ executables:
         main: Main.hs
         dependencies:
             - pipes
+    exe-17:
+        source-dirs: src/17-optparse-applicative
+        main: Main.hs
+        dependencies:
+            - optparse-applicative
