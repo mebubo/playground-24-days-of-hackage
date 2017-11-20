@@ -80,3 +80,8 @@ executables:
         main: Main.hs
         dependencies:
             - optparse-applicative
+    exe-18:
+        source-dirs: src/18-criterion
+        main: Main.hs
+        dependencies:
+            - criterion
