@@ -85,3 +85,8 @@ executables:
         main: Main.hs
         dependencies:
             - criterion
+    exe-21:
+        source-dirs: src/21-configurator
+        main: Main.hs
+        dependencies:
+            - configurator
