@@ -85,6 +85,15 @@ executables:
         main: Main.hs
         dependencies:
             - criterion
+    exe-19:
+        source-dirs: src/19-snap
+        main: Main.hs
+        dependencies:
+            - snap-core
+            - snap-server
+            - snap
+            - snaplet-sqlite-simple
+            - lens
     exe-21:
         source-dirs: src/21-configurator
         main: Main.hs
