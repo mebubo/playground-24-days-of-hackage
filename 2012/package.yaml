@@ -94,6 +94,11 @@ executables:
             - snap
             - snaplet-sqlite-simple
             - lens
+    exe-20:
+        source-dirs: src/20-transformers
+        main: Main.hs
+        dependencies:
+            - transformers
     exe-21:
         source-dirs: src/21-configurator
         main: Main.hs
