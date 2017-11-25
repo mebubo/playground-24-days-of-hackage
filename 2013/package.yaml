@@ -1,0 +1,13 @@
+name: doh2013
+
+dependencies:
+  - base
+
+executables:
+  linear:
+    source-dirs: src/02-linear
+    main: Main.hs
+    dependencies:
+      - linear
+      - containers
+      - lens
