@@ -12,4 +12,4 @@ Examples:
 - `ghcid`:
     - `ghcid -c 'stack ghci --ghci-options="-fno-code -ferror-spans" doh2013:exe:linear'`
 - run:
-    - `stack exec exe-20 data/users.txt Bob`
+    - `stack exec exe-20 2012/data/users.txt Bob`
