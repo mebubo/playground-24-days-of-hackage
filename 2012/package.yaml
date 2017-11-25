@@ -104,3 +104,8 @@ executables:
         main: Main.hs
         dependencies:
             - configurator
+    exe-22:
+        source-dirs: src/22-blaze-html
+        main: Main.hs
+        dependencies:
+            - blaze-html
