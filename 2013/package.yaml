@@ -11,3 +11,10 @@ executables:
       - linear
       - containers
       - lens
+  tasty:
+    source-dirs: src/03-tasty
+    main: Main.hs
+    dependencies:
+      - tasty
+      - tasty-smallcheck
+      - tasty-hunit
