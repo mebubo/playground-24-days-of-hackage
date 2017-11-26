@@ -25,3 +25,13 @@ executables:
       - scotty
       - aeson
       - http-types
+  persistent-esqueleto:
+    source-dirs: src/06-presistent-esqueleto
+    main: Main.hs
+    dependencies:
+      - persistent
+      - persistent-template
+      - persistent-sqlite
+      - text
+      - time
+      - esqueleto
