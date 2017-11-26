@@ -18,3 +18,10 @@ executables:
       - tasty
       - tasty-smallcheck
       - tasty-hunit
+  scotty:
+    source-dirs: src/05-scotty
+    main: Main.hs
+    dependencies:
+      - scotty
+      - aeson
+      - http-types
