@@ -35,3 +35,10 @@ executables:
       - text
       - time
       - esqueleto
+  threepenny-gui:
+    source-dirs: src/07-threepenny-gui
+    main: Main.hs
+    dependencies:
+      - threepenny-gui
+      - containers
+      - stm
