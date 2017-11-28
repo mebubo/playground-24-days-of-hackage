@@ -42,3 +42,9 @@ executables:
       - threepenny-gui
       - containers
       - stm
+  data-memocombinators:
+    source-dirs: src/08-data-memocombinators
+    main: Main.hs
+    dependencies:
+      - data-memocombinators
+      - time
