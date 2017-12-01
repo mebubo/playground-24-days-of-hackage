@@ -48,3 +48,8 @@ executables:
     dependencies:
       - data-memocombinators
       - time
+  sbv:
+    source-dirs: src/09-sbv
+    main: Main.hs
+    dependencies:
+      - sbv
