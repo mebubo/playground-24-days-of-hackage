@@ -53,3 +53,8 @@ executables:
     main: Main.hs
     dependencies:
       - sbv
+  async:
+    source-dirs: src/13-async
+    main: Main.hs
+    dependencies:
+      - async
