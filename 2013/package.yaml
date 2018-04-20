@@ -53,6 +53,13 @@ executables:
     main: Main.hs
     dependencies:
       - sbv
+  gloss:
+    source-dirs: src/10-gloss
+    main: Main.hs
+    dependencies:
+      - gloss
+      - lens
+      - random
   async:
     source-dirs: src/13-async
     main: Main.hs
