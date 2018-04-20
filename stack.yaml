@@ -1,4 +1,4 @@
-resolver: lts-10.1
+resolver: lts-11.5
 
 packages:
 - ./2012
@@ -12,8 +12,4 @@ extra-deps:
 - digestive-functors-0.8.3.0
 - digestive-functors-blaze-0.6.2.0
 - digestive-functors-snap-0.7.0.0
-- snap-1.0.0.2
-- heist-1.0.1.1
-- map-syntax-0.2.0.2
-- snaplet-sqlite-simple-1.0.0.2
 - sbv-5.15
